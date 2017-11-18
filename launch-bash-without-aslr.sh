@@ -1,9 +1,8 @@
 #!/bin/bash
 
 
-echo ==== ASLR disabled for this session ====
+echo "==== ASLR disabled for this session ===="
 
-setarch `uname -m` -R bash --rcfile <(echo "PS1='no-aslr $ '") -i
+setarch "$(uname -m)" -R bash --rcfile <(echo "PS1='no-aslr $ '") -i
 
-echo ==== ASLR re-enabled ====
-
+echo "==== ASLR re-enabled ===="
