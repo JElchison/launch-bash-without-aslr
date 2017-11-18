@@ -17,3 +17,9 @@ exit
 ==== ASLR re-enabled ====
 user@computer:~$ 
 ```
+## References
+
+* https://en.wikipedia.org/wiki/Address_space_layout_randomization
+* https://linux-audit.com/linux-aslr-and-kernelrandomize_va_space-setting/
+* https://stackoverflow.com/questions/11238457/disable-and-re-enable-address-space-layout-randomization-only-for-myself
+* https://askubuntu.com/questions/318315/how-can-i-temporarily-disable-aslr-address-space-layout-randomization
